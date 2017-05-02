@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fortunes-R-Us</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <h1>WE TELL FORTUNES!</h1>
+          <h2>Seriously... fortunes</h2>
+          <h3>But really... check it out</h3>
+          <h4>The fortunes are for realsies</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <form>
+            <div class="form-group checkbox">
+              <h3>Tell me some lucky things that have happened recently:</h3>
+              <input type="checkbox" name="lucky" value="four-leaf-clover">Find a four-leaf clover<br>
+              <input type="checkbox" name="lucky" value="find-penny-heads-up">Found a penny on the ground, heads up 7-up<br>
+              <input type="checkbox" name="lucky" value="kiss-slug">Kissed a banana slug<br>
+              <input type="checkbox" name="lucky" value="saw-rainbow">Seen a rainbow<br>
+              <input type="checkbox" name="lucky" value="belly-rub">Rubbed a Buddha's belly<br>
+            </div>
+            <div class="form-group checkbox">
+              <h3>Tell me some unlucky things that have happened recently:</h3>
+              <input type="checkbox" name="unlucky" value="broke-mirror">Broke a mirror<br>
+              <input type="checkbox" name="unlucky" value="didnt-kiss-slug">Didn't kiss a banana slug<br>
+              <input type="checkbox" name="unlucky" value="under-ladder">Walked under a ladder<br>
+              <input type="checkbox" name="unlucky" value="broke-back">Broke your mother's back (AKA stepped on a crack)<br>
+              <input type="checkbox" name="unlucky" value="spill-salt">Spilled salt<br>
+            </div>
+            <input type="submit">
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1>You're Fortune:</h1>
+          <p id="lucky">Looks like <span></span> lucky things have happened recently! You're pretty darn lucky, if I do say so myself, friend.</p>
+          <p id="unlucky">Looks like <span></span> unlucky things have happened recently! Sorry about your life, friend.</p>
+          <p id="middle-road">Looks like <span></span> things have happened recently, you are walking a fine line friend.</p>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

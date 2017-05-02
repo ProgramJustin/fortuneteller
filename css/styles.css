@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url('../img/geoffrey.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border: 10px solid transparent;
+}
+#lucky, #unlucky, #middle-road {
+  display: none;
+}
