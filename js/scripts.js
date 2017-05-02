@@ -30,8 +30,6 @@ $(document).ready(function() {
     });
 
     $('#' + determine(luckCounter, unluckyCounter)).show();
-    $("#" + determine(luckCounter, unluckyCounter) + " span").text(counter);
-
+    $('#' + determine(luckCounter, unluckyCounter) + " span").text(counter);
   });
-
 });
